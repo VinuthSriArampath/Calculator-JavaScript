@@ -64,3 +64,10 @@ function calc(){
     }
 }
 
+function del(){
+    let tempstr=display.value;
+    tempstr=tempstr.slice(0,-1);
+    display.value=tempstr;
+}
+
+
