@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-    <input type="text" name="text-box" id="display" readonly><br>
+    <div>
+        <h1>Calculator</h1>
+        <input type="text" name="text-box" id="display" readonly><br>
 
-    <input type="button" value="7" onclick="num7()">
-    <input type="button" value="8" onclick="num8()">
-    <input type="button" value="9" onclick="num9()">
-    <input type="button" value="+" onclick="numadd()"><br>
+        <input type="button" value="7" onclick="num7()" class="numbtn">
+        <input type="button" value="8" onclick="num8()" class="numbtn">
+        <input type="button" value="9" onclick="num9()" class="numbtn">
+        <input type="button" value="+" onclick="numadd()" class="numbtn fucbtn"><br>
 
-    <input type="button" value="4" onclick="num4()">
-    <input type="button" value="5" onclick="num5()">
-    <input type="button" value="6" onclick="num6()">
-    <input type="button" value="-" onclick="numsub()"><br>
+        <input type="button" value="4" onclick="num4()" class="numbtn">
+        <input type="button" value="5" onclick="num5()" class="numbtn">
+        <input type="button" value="6" onclick="num6()" class="numbtn">
+        <input type="button" value="-" onclick="numsub()" class="numbtn fucbtn"><br>
 
-    <input type="button" value="1" onclick="num1()">
-    <input type="button" value="2" onclick="num2()">
-    <input type="button" value="3" onclick="num3()">
-    <input type="button" value="*" onclick="nummul()"><br>
+        <input type="button" value="1" onclick="num1()" class="numbtn">
+        <input type="button" value="2" onclick="num2()" class="numbtn">
+        <input type="button" value="3" onclick="num3()" class="numbtn">
+        <input type="button" value="*" onclick="nummul()" class="numbtn fucbtn"><br>
 
-    <input type="button" value="0" onclick="num0()">
-    <input type="button" value="." onclick="numdot()">
-    <input type="button" value="del" onclick="del()">
-    <input type="button" value="/" onclick="numdiv()"><br>
-    <input type="button" value="Calculate" onclick="calc()"><br>
-    <input type="reset" value="Reset"><br>
-    </form>
+        <input type="button" value="0" onclick="num0()" class="numbtn">
+        <input type="button" value="." onclick="numdot()" class="numbtn">
+        <input type="button" value="del" onclick="del()" class="numbtn fucbtn">
+        <input type="button" value="/" onclick="numdiv()" class="numbtn fucbtn"><br>
+        <input type="button" value="Calculate" onclick="calc()" class="calres fucbtn"><br>
+        <input type="button" value="Reset" onclick="clr()" class="calres fucbtn"><br>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
