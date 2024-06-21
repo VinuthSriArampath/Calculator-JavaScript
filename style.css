@@ -1,0 +1,57 @@
+.numbtn{
+    width: 50px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: rgb(52, 172, 224);
+}
+.numbtn:hover{
+    background-color:rgb(34, 112, 147);
+}
+.calres{
+    width: 240px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#display{
+    margin: 5px;
+    margin-bottom: 20px;
+    width: 225px;
+    height: 60px;
+    border-radius: 25px;
+    padding-right: 15px;
+    text-align: end;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: rgb(184, 233, 148);
+} 
+
+div{
+    border: 1px solid red;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: rgb(206, 214, 224);
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    background-color: rgb(112, 161, 255);
+
+}
+
+h1{
+    text-align: center;
+}
+
+.fucbtn{
+    background-color: rgb(255, 121, 63);
+}
+.fucbtn:hover{
+    background-color: rgb(205, 97, 51);
+}
